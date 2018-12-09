@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">safe.asname.annotator2</Name>
+  <Value className="java.lang.String">renisha.chainani</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deleteNonNNPLookups</Name>
+  <Value className="java.lang.String">true</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">jar:file:/opt/teamware/teamware-webapps/executive/resources/niraj/200-text.zip!/fixed-unique-posts_0000050747.xml</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">safe.asname.annotator1</Name>
+  <Value className="java.lang.String">haresh.choithani</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lang</Name>
+  <Value className="java.lang.String">en</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/xml</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>#<Node id="1"/>Facebook<Node id="9"/> making a big update to its #news feed March 7th http://t.co/hY0g2lNoHq (via @<Node id="87"/>BusinessInsider<Node id="102"/>) $<Node id="105"/>FB<Node id="107"/> #SocialMedia<Node id="120"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="text" StartNode="0" EndNode="120">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Key">
+<Annotation Id="200" Type="Mention" StartNode="87" EndNode="102">
+<Feature>
+  <Name className="java.lang.String">class</Name>
+  <Value className="java.lang.String">Organization</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">inst</Name>
+  <Value className="java.lang.String">NIL</Value>
+</Feature>
+</Annotation>
+<Annotation Id="201" Type="Mention" StartNode="105" EndNode="107">
+<Feature>
+  <Name className="java.lang.String">class</Name>
+  <Value className="java.lang.String">Organization</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">inst</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Facebook</Value>
+</Feature>
+</Annotation>
+<Annotation Id="202" Type="Mention" StartNode="1" EndNode="9">
+<Feature>
+  <Name className="java.lang.String">class</Name>
+  <Value className="java.lang.String">Organization</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">inst</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Facebook</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

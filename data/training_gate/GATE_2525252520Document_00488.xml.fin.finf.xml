@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">source_geography</Name>
+  <Value className="java.lang.String">  </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">date</Name>
+  <Value className="java.lang.String">06/06/2014 18:24</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">sentiment</Name>
+  <Value className="java.lang.String">0</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">keywords</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docType</Name>
+  <Value className="java.lang.String">tweet</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">target_geography_latitude</Name>
+  <Value className="java.lang.String">null</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deleteNonNNPLookups</Name>
+  <Value className="java.lang.String">true</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">run-preprocess-en-twitter</Name>
+  <Value className="java.lang.String">true</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">title</Name>
+  <Value className="java.lang.String">MissyMulligan</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">run-preprocess-en</Name>
+  <Value className="java.lang.String">false</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">relevance</Name>
+  <Value className="java.lang.String">1.53</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">keyOverlapsOnly</Name>
+  <Value className="java.lang.Boolean">false</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">created from String</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">original_url</Name>
+  <Value className="java.lang.String">twitter.com/MissyMulligan/status/474949862489096192</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">target_geography</Name>
+  <Value className="java.lang.String">Unknown</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">portal_url</Name>
+  <Value className="java.lang.String">www.ecoresearch.net/climate/doc/652804005/Tweet-by-Missy-Mulligan</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">target_geography_longitude</Name>
+  <Value className="java.lang.String">null</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lang</Name>
+  <Value className="java.lang.String">en</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>&#xfffd; @<Node id="3"/>PokJournal<Node id="13"/> @<Node id="15"/>FERC<Node id="19"/> @<Node id="21"/>CentralHudson<Node id="34"/> @<Node id="36"/>NYSDPS<Node id="42"/> @<Node id="44"/>DutchessCoGov<Node id="57"/>    Get <Node id="65"/>FERC<Node id="69"/> off our energy bill! #FERCoff. &#xfffd;</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Key">
+<Annotation Id="456" Type="Mention" StartNode="36" EndNode="42">
+<Feature>
+  <Name className="java.lang.String">class</Name>
+  <Value className="java.lang.String">Organization</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">inst</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/New_York_State_Department_of_Public_Service</Value>
+</Feature>
+</Annotation>
+<Annotation Id="457" Type="Mention" StartNode="44" EndNode="57">
+<Feature>
+  <Name className="java.lang.String">class</Name>
+  <Value className="java.lang.String">Organization</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">inst</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Dutchess_County,_New_York</Value>
+</Feature>
+</Annotation>
+<Annotation Id="458" Type="Mention" StartNode="21" EndNode="34">
+<Feature>
+  <Name className="java.lang.String">class</Name>
+  <Value className="java.lang.String">Organization</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">inst</Name>
+  <Value className="java.lang.String">NIL</Value>
+</Feature>
+</Annotation>
+<Annotation Id="459" Type="Mention" StartNode="3" EndNode="13">
+<Feature>
+  <Name className="java.lang.String">class</Name>
+  <Value className="java.lang.String">Organization</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">inst</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Poughkeepsie_Journal</Value>
+</Feature>
+</Annotation>
+<Annotation Id="460" Type="Mention" StartNode="65" EndNode="69">
+<Feature>
+  <Name className="java.lang.String">class</Name>
+  <Value className="java.lang.String">Organization</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">inst</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Federal_Energy_Regulatory_Commission</Value>
+</Feature>
+</Annotation>
+<Annotation Id="461" Type="Mention" StartNode="15" EndNode="19">
+<Feature>
+  <Name className="java.lang.String">class</Name>
+  <Value className="java.lang.String">Organization</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">inst</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Federal_Energy_Regulatory_Commission</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

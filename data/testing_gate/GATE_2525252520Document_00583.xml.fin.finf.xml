@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">source_geography</Name>
+  <Value className="java.lang.String">  </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">date</Name>
+  <Value className="java.lang.String">14/06/2014 01:11</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">sentiment</Name>
+  <Value className="java.lang.String">-0.81</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">keywords</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docType</Name>
+  <Value className="java.lang.String">tweet</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">target_geography_latitude</Name>
+  <Value className="java.lang.String">40.25033951</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deleteNonNNPLookups</Name>
+  <Value className="java.lang.String">true</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">run-preprocess-en-twitter</Name>
+  <Value className="java.lang.String">true</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">title</Name>
+  <Value className="java.lang.String">fangpusskins</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">run-preprocess-en</Name>
+  <Value className="java.lang.String">false</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">relevance</Name>
+  <Value className="java.lang.String">1.92</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">keyOverlapsOnly</Name>
+  <Value className="java.lang.Boolean">false</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">created from String</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">original_url</Name>
+  <Value className="java.lang.String">twitter.com/fangpusskins/status/477589016263409664</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">target_geography</Name>
+  <Value className="java.lang.String">Ohio</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">portal_url</Name>
+  <Value className="java.lang.String">www.ecoresearch.net/climate/doc/667645998/Tweet-by-Ms-Davis</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">target_geography_longitude</Name>
+  <Value className="java.lang.String">-83.00018311</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lang</Name>
+  <Value className="java.lang.String">en</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>&#xfffd; RT @<Node id="6"/>marcylauren<Node id="17"/>: <Node id="19"/>Ohio<Node id="23"/> just signed its terrible anti-renewable energy bill into law http://t.co/8vgrlUlgLW via @<Node id="113"/>Salon<Node id="118"/> #WTF #<Node id="125"/>KochBrothers<Node id="137"/> #tc&#x2026;. &#xfffd;</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Key">
+<Annotation Id="1267" Type="Mention" StartNode="6" EndNode="17">
+<Feature>
+  <Name className="java.lang.String">class</Name>
+  <Value className="java.lang.String">Person</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">inst</Name>
+  <Value className="java.lang.String">NIL</Value>
+</Feature>
+</Annotation>
+<Annotation Id="1268" Type="Mention" StartNode="125" EndNode="137">
+<Feature>
+  <Name className="java.lang.String">class</Name>
+  <Value className="java.lang.String">Organization</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">inst</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Koch_family</Value>
+</Feature>
+</Annotation>
+<Annotation Id="1269" Type="Mention" StartNode="113" EndNode="118">
+<Feature>
+  <Name className="java.lang.String">class</Name>
+  <Value className="java.lang.String">Organization</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">inst</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Salon_(website)</Value>
+</Feature>
+</Annotation>
+<Annotation Id="1270" Type="Mention" StartNode="19" EndNode="23">
+<Feature>
+  <Name className="java.lang.String">trust</Name>
+  <Value className="java.lang.Double">0.998327759197324</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">cf_judgment</Name>
+  <Value className="java.lang.Long">1427765453</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">answer</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ohio</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">class</Name>
+  <Value className="java.lang.String">Location</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">worker_id</Name>
+  <Value className="java.lang.Long">27536292</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">inst</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Ohio</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

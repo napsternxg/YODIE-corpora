@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">source_geography</Name>
+  <Value className="java.lang.String">  </Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">date</Name>
+  <Value className="java.lang.String">09/06/2014 18:26</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">sentiment</Name>
+  <Value className="java.lang.String">0</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">keywords</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docType</Name>
+  <Value className="java.lang.String">tweet</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">target_geography_latitude</Name>
+  <Value className="java.lang.String">35.89027786</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">deleteNonNNPLookups</Name>
+  <Value className="java.lang.String">true</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">run-preprocess-en-twitter</Name>
+  <Value className="java.lang.String">true</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">title</Name>
+  <Value className="java.lang.String">thePowerStore</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">run-preprocess-en</Name>
+  <Value className="java.lang.String">false</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">relevance</Name>
+  <Value className="java.lang.String">2.42</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">keyOverlapsOnly</Name>
+  <Value className="java.lang.Boolean">false</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">created from String</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">original_url</Name>
+  <Value className="java.lang.String">twitter.com/thePowerStore/status/476037583474946049</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">target_geography</Name>
+  <Value className="java.lang.String">Ceuta</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">portal_url</Name>
+  <Value className="java.lang.String">www.ecoresearch.net/climate/doc/659923997/Tweet-by-ThePowerStore</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">target_geography_longitude</Name>
+  <Value className="java.lang.String">-5.307499886</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">lang</Name>
+  <Value className="java.lang.String">en</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>&#xfffd; <Node id="2"/>Spain<Node id="7"/> passes retroactive solar investment caps: The <Node id="54"/>Spanish cabinet<Node id="69"/> has approved a renewable energy bill that ... &#xfffd;</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Key">
+<Annotation Id="730" Type="Mention" StartNode="54" EndNode="69">
+<Feature>
+  <Name className="java.lang.String">trust</Name>
+  <Value className="java.lang.Double">0.998327759197324</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">cf_judgment</Name>
+  <Value className="java.lang.Long">1422293359</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">answer</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Cabinet_of_Spain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">class</Name>
+  <Value className="java.lang.String">Organization</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">worker_id</Name>
+  <Value className="java.lang.Long">27536292</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">inst</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Cabinet_of_Spain</Value>
+</Feature>
+</Annotation>
+<Annotation Id="731" Type="Mention" StartNode="2" EndNode="7">
+<Feature>
+  <Name className="java.lang.String">trust</Name>
+  <Value className="java.lang.Double">0.998327759197324</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">cf_judgment</Name>
+  <Value className="java.lang.Long">1412268977</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">answer</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Spain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">class</Name>
+  <Value className="java.lang.String">Location</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">worker_id</Name>
+  <Value className="java.lang.Long">27536292</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">inst</Name>
+  <Value className="java.lang.String">http://dbpedia.org/resource/Spain</Value>
+</Feature>
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>
