@@ -158,34 +158,33 @@ def process_gate_json2conll(gate_json):
     seq = get_seq_from_segments(segments)
     return seq  
 
-def sequence2string(seq):
+def process_line(i, line, add_comments_idx=False):
+    if add_comments_idx:
+        line = (i,) + line
+    else:
+        line = (line[0], line[3])
+    return tuple([str(v) for v in line])
+
+def sequence2string(seq, add_comments_idx=False):
     return "\n".join([
-        "\t".join(
-            tuple([str(v) for v in (i,)+line])
-                ) 
+        "\t".join(process_line(i, line, add_comments_idx)) 
         for i, line in enumerate(seq)
         ])
 
-
-
-def process_gate_dir(input_dir, output_file, output_format):
+def process_gate_dir(input_dir, output_file, output_format, add_comments_idx=False):
     xml_files = glob("{}/*.xml".format(input_dir))
     corrupted_files = 0
     with open(output_file, "w+") as fp:
         for filename in tqdm(xml_files):
             try:
                 soup = xml2soup(filename)
-                if output_format == "conll-old":
-                    seq = process_gate_xml(soup)
-                    seq_str = sequence2string(seq)
-                    print("# Source file: {}".format(filename), file=fp)
-                    print(seq_str, end="\n\n", file=fp)
-                elif output_format == "conll":
+                if output_format == "conll":
                     seq_json = process_gate_xml2json(soup)
                     seq = process_gate_json2conll(seq_json)
-                    seq_str = sequence2string(seq)
-                    print("# Source file: {}".format(filename), file=fp)
-                    print("# Text: {}".format(seq_json["text"]), file=fp)
+                    seq_str = sequence2string(seq, add_comments_idx)
+                    if add_comments_idx:
+                        print("# Source file: {}".format(filename), file=fp)
+                        print("# Text: {}".format(seq_json["text"]), file=fp)
                     print(seq_str, end="\n\n", file=fp)
                 elif output_format == "json":
                     seq = process_gate_xml2json(soup)
@@ -202,8 +201,12 @@ if __name__ == "__main__":
     parser.add_argument("--input-dir", help="input directory")
     parser.add_argument("--output-file", help="output file for conll format")
     parser.add_argument("--output-format", choices=["json", "conll"], help="output file for conll format")
+    parser.add_argument(
+            "--add-comments-idx", 
+            default=False, 
+            action="store_true", 
+            help="Pass to include original text as comment and index of each token"
+            )
     args = parser.parse_args()
-    process_gate_dir(args.input_dir, args.output_file, args.output_format)
-
-
+    process_gate_dir(args.input_dir, args.output_file, args.output_format, args.add_comments_idx)
 
